@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvend's blog!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Twinkle+Star&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Jersey+10&family=Twinkle+Star&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet"></head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap" rel="stylesheet">
+<body>
+    <nav>
+    <ul>
+        <li><a href="blog.html">Home</a></li>
+        <li><a href="yapathons.html">Blog</a></li>
+        <li><a href="more.html">Contact</a></li>
+    </ul>
+</nav>
+ <h1>Silvend's blog!^^</h1>
+</body>
+<div class="flex-container">
+<div class="flex-child container">
+    <h2>Hello, I am Sil! I'm a beginner coder, and I'd love to share my interests.I really like math and geology, so that will probably be the most I yap about in here...</h2>
+    <div class="marquee-container">
+    <marquee behavior="scroll" direction="left">
+        <h3>Remember, "Be someone's rainbow today!"</h3>
+    </marquee>
+</div>
+
+<img src="https://i.pinimg.com/736x/f8/7e/ac/f87eac26411713bc0e18bc16184a7c97.jpg">
+</div>
+
+<div class="flex-child cats">
+    <h2>About Me!</h2>
+<div class="about-list">
+<div class="likes">
+    <h4>Likes!</h4>
+    <ul class="likes-list">
+        <li>Math (Specially Calculus and Geometry) </li>
+        <li>Pokemon!</li>
+        <li>Sonic (The Hedgehog)</li>
+        <li>Geology</li>
+        <li>Undead</li>
+        <li>Bats, bats, bats, bats, bats, bats</li>
+        <li>Using an UNECESSARY ammounts of parenthesis</li>
+    </ul>
+</div>
+<div class="dislikes">
+    <h4>Dislikes:</h4>
+    <ul class="dislikes-list">
+        <li>Water (S-Showers..)</li>
+        <li>Physicial Activity</li>
+        <li>Don't take this seriously, I don't dislike much</li>
+        <li>I am just a little bit stinky.</li>
+        <li>Gory movies</li>
+        <li>Texas weather...
+        </li>
+        <li>Pls get me out of Texas</li>
+    </ul>
+</div>
+</div>
+<img src="https://i.pinimg.com/1200x/6e/37/fb/6e37fb73041971b802bb51889a638213.jpg" width =850px height=250px>
+<img src="https://i.pinimg.com/1200x/ac/5c/e3/ac5ce305365d918127ef11805ac2b422.jpg" width =850px height=250px>
+</div>
+
+<style>
+    body{
+        background-color: #95b7e4;
+        color: #8f8cf0;
+        padding: 5px;
+        text-align: center;
+        background-image: url('https://i.pinimg.com/736x/4d/ff/80/4dff807c826688d1342221818cb194ef.jpg');
+        font-family:'pixelify sans', sans-serif;
+        cursor: url('https://i.pinimg.com/736x/f6/4e/c0/f64ec0087fad8127111851748d775a4a.jpg'), auto;
+    
+    }
+    .container {
+        background-color: #cdecfa;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+        font-family: Copperplate, serif;
+        border: 2px solid #446595;
+       
+    }
+    .cats {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #cdecfa;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+        font-family: Copperplate, serif;
+        border: 2px solid #446595;
+
+    }
+    .about-list {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        flex:1;
+        flex-direction: row;
+    }
+    .nav {
+        background-color: #acdef7;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        font-family: 'Pixelify Sans', sans-serif;
+    }
+    h1 {
+        color: #205a71;
+        text-align: center;
+        font-size: 90px;
+        padding: 0px;
+        -webkit-text-stroke:1px #ffffff;
+        font-family: 'jersey 10', sans-serif;
+    }
+    h2 {
+        color: #3e5876;
+        text-align: center;
+        font-size: 30px;
+        padding: 0px;
+        margin: 10px;
+        font-family: 'Pixelify Sans', sans-serif;
+        flex-basis: 100%;
+    }
+    .marquee-container {
+        color: #394e6f;
+        font-size: 25px;
+        padding: 0px;
+        font-family: 'Uncial Antiqua', cursive;
+        background-color: #acdef7;
+        margin: 5px;
+        border-radius: 5px;
+
+    }
+    h4 {
+        color: #394e6f;
+        font-size: 25px;
+        padding: 0px;
+    }
+    .likes-list {
+        list-style-type: none;
+        padding: 5px;
+        margin: 10px;
+        background-color: #acdef7;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-family: 'jersey 10', sans-serif;
+        font-size: 20px;
+        color: #1f1d48;
+    }
+    .dislikes-list {
+        list-style-type: none;
+        padding: 5px;
+        margin: 10px;
+        background-color: #acdef7;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-family: 'jersey 10', sans-serif;
+        font-size: 20px;
+        color: #1f1d48;
+    }
+    ul {
+        list-style-type: none;
+        padding: 5px;
+        margin: 10px;
+        background-color: #acdef7;
+        display: flex;
+    }
+    ul li a {
+        color: #1f1d48;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+    }
+    ul li a:hover {
+        background-color: #1f1d48;
+    }
+    .flex-container {
+        display: flex;
+        gap: 10px;
+        align-items: stretch;
+    }
+    .flex-child {
+        flex: 1;
+        border: 5px solid #1f1d48;
+    }
+    .flex-child:first-child {
+        margin-right: 10px;
+    }
+    .likes {
+        background-color: #acdef7;
+        padding: 1px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 2px solid rgb(66, 101, 149);
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      
+    }
+    .dislikes {background-color: #acdef7;
+        padding: 1px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 2px solid rgb(66, 101, 149);
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        }
+    
+    .likes:first-child {
+        margin-right: 10px;
+    }   
+    h4 {
+        color: #394e6f;
+        font-size: 25px;
+        padding: 0px;
+        font-family: 'Pixelify Sans', cursive;
+        text-align:left;
+        margin-left: 10px;
+    }
+
+.full-width {
+  width: 100%;
+  margin: 20px auto;
+  background: #cdecfa;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #446595;
+}
+</style>
+
+</html>
