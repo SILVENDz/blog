@@ -25,89 +25,138 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 <body>
     <nav>
     <ul>
         <li><a href="blog.html">Home</a></li>
         <li><a href="yapathons.html">Blog</a></li>
-        <li><a href="more.html">More</a></li>
+        <li><a href="more.html">More!</a></li>
     </ul>
-</nav>
-    <h1>Sunny Side Up!</h1>
-</body>
-<article>
-<div class="paragraph">
-<p> 
-Hello! For Sunbeam Global, I made a little beach volleyball game! It's short, but it reminds me of all the wonderful people that make my school-year bearable! I love my volleyball kiddos, they never fail to brighten my days :D
-</p>   
-<div class="images">
-    <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/4967519"><a href="https://silvendz.itch.io/sunny-side-up">Sunny Side UP by silvendz</a></iframe>
-</div> 
+    </nav>
+    </body>
+    <div class="articles">
+    <h3>Here are a couple of my favorite pokemon cards! Sadly, I do not get to buy packs often (PLUS SCALPERS) but these are the ones I love most!</h3>
 </div>
-<div class=collection>
-</div>
-</article>
+<div class="gallery">
+    <div class="pair">
+        <div class="image">
+            <img src='pkmn1.png'>
+        </div>
+        <div class="image">
+            <img src='pkmn2.png'>
+        </div>
+    </div>
+    <div class="pair">
+        <div class="image">
+            <img src='pkmn3.png'>
+        </div>
+    </div>
 
-<script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+    <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
 <div class="commonninja_component pid-5ac9f709-9a77-4251-9d9e-1f3e0083e13c"></div>
+
 
 </html>
 
 <style>
     body{
-        background-color: #acc1f7;
-        color: #ffd7ff;
+        background-color: #95b7e4;
+        color: #d1c98a;
+        border: #676523 2px;
         padding: 5px;
         text-align: center;
-        background-image: url('https://i.pinimg.com/736x/f3/eb/af/f3ebaf909f109808141a7c4f8f551f22.jpg');
+        background-image: url('https://i.pinimg.com/1200x/93/2c/e6/932ce6b2dc6397d5a8edf2349fce4f9e.jpg');
         font-family:'pixelify sans', sans-serif;
         cursor: url('https://i.pinimg.com/736x/f6/4e/c0/f64ec0087fad8127111851748d775a4a.jpg'), auto;
     
     }
      h1 {
-        color: #61215b;
+        color: #232967;
         text-align: center;
         font-size: 90px;
         padding: 0px;
         -webkit-text-stroke:1px #ffffff;
         font-family: 'jersey 10', sans-serif;
      }
-        .nav {
-        background-color: #f7ace8;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 5px;
-        font-family: 'Pixelify Sans', sans-serif;
-        }
+     img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    margin: 0px auto;
+    max-width: 1100px;
+}
+.pair {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    padding:0px;
+}
+.nav {
+    background-color: #d4f4d9;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
     ul {
         list-style-type: none;
         padding: 5px;
         margin: 10px;
-        background-color: #f9c4ee;
+        background-color: #d4f4d9;
         display: flex;
     }
     ul li a {
-        color: #1d2c48;
+        color: #606723;
         text-decoration: none;
         padding: 10px 20px;
         display: block;
     }
     ul li a:hover {
-        background-color: #481d3a;
+        background-color: #556e53;
     }
-    article {
-        background-color: #fdc6f2;
+    .articles {
+        background-color: #d4f4d9;
         padding: 10px;
         margin: 20px;
         border-radius: 10px;
         font-family: Copperplate, serif;
-        border: 2px solid #954477;
+        border: 2px solid #556e53;
     }
-    .paragraph {
-        text-align: left;
-        margin: 20px;
+    h3 {
+        color: #676523;
+        font-size: 25px;
+        font-family: 'Pixelify Sans', sans-serif;
+        -webkit-text-stroke:0px #3e5876;
+
+    }
+    h4 {
+        color: #646723;
+        font-size: 25px;
+        font-family: 'Pixelify Sans', sans-serif;
+        -webkit-text-stroke:0px #3e5876;
+        background-color: #556e53;
+        padding: 0px;
+        margin: 0x;
+    }
+    p {
+        color: #646723;
         font-size: 20px;
-        color: #481d3a;
     }
-</style>
-</html>

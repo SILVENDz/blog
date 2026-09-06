@@ -42,23 +42,36 @@
     <h3>i'm currently attending a camp in Massachussets for the summer! I decided to try out photography as one of my 'active' classes, and I think i just found my new favorite hobby...</h3>
 </div>
 <div class="gallery">
-    <div class="image">
-        <img src='Pictures/IMG_6807.HEIC'>
+    <div class="pair">
+        <div class="image">
+            <img src='Pictures/IMG_6807.HEIC'>
+            <h4>06/25/26</h4>
+        </div>
+        <div class="image">
+            <img src='Pictures/IMG_6802.HEIC'>
+            <h4>06/25/26</h4>
+        </div>
     </div>
-    <div class="image">
-        <img src='Pictures/IMG_6802.HEIC'>
+    <div class="pair">
+        <div class="image">
+            <img src='Pictures/IMG_6797.HEIC'>
+            <h4>06/25/26</h4>
+        </div>
+        <div class="image">
+            <img src='Pictures/IMG_6841.HEIC'>
+            <h4>06/25/26</h4>
+        </div>
     </div>
-    <div class="image">
-        <img src='Pictures/IMG_6797.HEIC'>
-    </div>
-    <div class="image">
-        <img src='Pictures/IMG_6841.HEIC'>
-    </div>
-</div>
+
+    <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+<div class="commonninja_component pid-5ac9f709-9a77-4251-9d9e-1f3e0083e13c"></div>
+
+</html>
 <style>
     body{
         background-color: #95b7e4;
-        color: #8f8cf0;
+        color: #d1c98a;
+        border: #676523 2px;
         padding: 5px;
         text-align: center;
         background-image: url('https://i.pinimg.com/1200x/69/e7/77/69e777994bfcfe46d5af650ff6865790.jpg');
@@ -82,16 +95,25 @@
 }
 .gallery {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    margin: 20px auto;
+    gap: 0px;
+    margin: 0px auto;
     max-width: 1100px;
+}
+.pair {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 .image {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    margin:0px;
+    padding:0px;
 }
 .nav {
     background-color: #d1c98a;
@@ -125,7 +147,7 @@
         border: 2px solid #646723;
     }
     h3 {
-        color: #232967;
+        color: #676523;
         font-size: 25px;
         font-family: 'Pixelify Sans', sans-serif;
         -webkit-text-stroke:0px #3e5876;
@@ -136,9 +158,9 @@
         font-size: 25px;
         font-family: 'Pixelify Sans', sans-serif;
         -webkit-text-stroke:0px #3e5876;
-        background-color: #c5c6fd;
-        padding: 5px;
-        margin: 5px;
+        background-color: #d1c98a;
+        padding: 0px;
+        margin: 0x;
     }
     p {
         color: #646723;
