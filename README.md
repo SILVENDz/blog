@@ -1,1 +1,2 @@
-# blog
+# Sil's Website
+This is a personal website designed for showcasing my hobbies, interests, and communication between others that share similar interests. I made this to expand my knowledge on HTML/CSS amd to create a corner of the internet that is uniquely mine.
