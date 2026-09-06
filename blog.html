@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silvend's blog!</title>
+    <title>Silvend's Website!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
@@ -54,7 +54,7 @@
     <h4>Personal Information!</h4>
     <ul class="likes-list">
         <li>Age: 15</li>
-        <li>Pronouns: Any</li>
+        <li>Pronouns: He/Him</li>
         <li>Nationallity: Mexican-American</li>
         <li>Birthday: November 2nd</li>
     </ul>
@@ -105,7 +105,29 @@
         <div class='card'><img src=https://i.pinimg.com/736x/4a/2e/55/4a2e5545b75b152dfbb59465a744281f.jpg></div>
         <div class='card'><img src=https://i.pinimg.com/736x/44/f5/8f/44f58f969972c8fa3b697370db117a0a.jpg></div>
         <div class='card'><img src=https://i.pinimg.com/736x/f9/5a/3a/f95a3aecfd58981e5ddbea581c5f56f2.jpg></div>
-
+    </div>
+     <div aria-hidden class="group">
+        <div class='card'><img src=https://i.pinimg.com/736x/81/98/28/819828ec459c34a87cad9475c4a13d33.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/23/90/a4/2390a4298e133d81fe016c2c3df1a03a.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/4a/2e/55/4a2e5545b75b152dfbb59465a744281f.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/44/f5/8f/44f58f969972c8fa3b697370db117a0a.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/f9/5a/3a/f95a3aecfd58981e5ddbea581c5f56f2.jpg></div>
+        </div>
+             <div aria-hidden class="group">
+        <div class='card'><img src=https://i.pinimg.com/736x/81/98/28/819828ec459c34a87cad9475c4a13d33.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/23/90/a4/2390a4298e133d81fe016c2c3df1a03a.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/4a/2e/55/4a2e5545b75b152dfbb59465a744281f.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/44/f5/8f/44f58f969972c8fa3b697370db117a0a.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/f9/5a/3a/f95a3aecfd58981e5ddbea581c5f56f2.jpg></div>
+        </div>
+             <div aria-hidden class="group">
+        <div class='card'><img src=https://i.pinimg.com/736x/81/98/28/819828ec459c34a87cad9475c4a13d33.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/23/90/a4/2390a4298e133d81fe016c2c3df1a03a.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/4a/2e/55/4a2e5545b75b152dfbb59465a744281f.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/44/f5/8f/44f58f969972c8fa3b697370db117a0a.jpg></div>
+        <div class='card'><img src=https://i.pinimg.com/736x/f9/5a/3a/f95a3aecfd58981e5ddbea581c5f56f2.jpg></div>
+        </div>
+             <div aria-hidden class="group">
         <div class='card'><img src=https://i.pinimg.com/736x/81/98/28/819828ec459c34a87cad9475c4a13d33.jpg></div>
         <div class='card'><img src=https://i.pinimg.com/736x/23/90/a4/2390a4298e133d81fe016c2c3df1a03a.jpg></div>
         <div class='card'><img src=https://i.pinimg.com/736x/4a/2e/55/4a2e5545b75b152dfbb59465a744281f.jpg></div>
@@ -160,12 +182,16 @@
       width: 90%;
       display: grid;
       place-items: center;
-      overflow: hidden;
+      overflow-x: auto;
     }
+    .carousel::-webkit-scrollbar{
+display: none;
+        }
     .group{
         display: flex;
         width: calc(250px*10);
-        animation: scroll 20s linear infinite;
+        animation: slide 20s infinite linear;
+        gap: 1em;
         border:#2b3f5a 2px;
     }
     .card{
@@ -181,6 +207,7 @@
         height: 170px;
         object-fit: contain;
         transition: transform 1s;
+        border: 2px solid #2b3f5a;
     }
     .about-list {
         display: flex;
@@ -396,14 +423,13 @@ img:hover {
     object-fit: cover;
     transition: transform;
 }
-@keyframes scroll {
-    0%{
-        transform: translatex(0);
-
-    }
-    100% {
-        transform: translatex(calc(-250px*9));
-    }
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 0.5rem));
+  }
 }
 </style>
 </body>
